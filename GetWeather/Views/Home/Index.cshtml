@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Weather Data</title>
+    <style>
+        pre {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <pre id="weatherData"></pre>
+
+    <script>
+        // 使用 fetch 函式取得 API 回應並處理 JSON 資料
+        fetch('/api/weather/getweather')
+            .then(response => response.json())
+            .then(data => {
+                // 將 JSON 資料轉換為字串並美化格式
+                var jsonData = JSON.stringify(data, null, 2);
+
+                // 取得要插入資料的目標元素
+                var weatherDataElement = document.getElementById('weatherData');
+
+                // 將美化後的 JSON 資料插入到目標元素中
+                weatherDataElement.textContent = jsonData;
+            })
+            .catch(error => console.log(error));
+    </script>
+</body>
+</html>

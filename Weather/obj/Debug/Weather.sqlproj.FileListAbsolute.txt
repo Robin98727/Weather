@@ -1,0 +1,10 @@
+C:\robin\sideproject\面試\玉山銀行\Weather\bin\Debug\Weather.dacpac
+C:\robin\sideproject\面試\玉山銀行\Weather\bin\Debug\Weather.dll
+C:\robin\sideproject\面試\玉山銀行\Weather\bin\Debug\Weather.pdb
+C:\robin\sideproject\面試\玉山銀行\Weather\obj\Debug\Weather.sqlproj.AssemblyReference.cache
+C:\robin\sideproject\面試\玉山銀行\Weather\obj\Debug\Model.xml
+C:\robin\sideproject\面試\玉山銀行\Weather\obj\Debug\refactor.xml
+C:\robin\sideproject\面試\玉山銀行\Weather\obj\Debug\postdeploy.sql
+C:\robin\sideproject\面試\玉山銀行\Weather\obj\Debug\predeploy.sql
+C:\robin\sideproject\面試\玉山銀行\Weather\obj\Debug\Weather.dll
+C:\robin\sideproject\面試\玉山銀行\Weather\obj\Debug\Weather.pdb
